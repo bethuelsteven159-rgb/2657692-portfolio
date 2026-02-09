@@ -1,0 +1,1 @@
+I learned how to create a Github account and created my first reposity and cloned it to a local machine i was using afterwards. Learned more about the HTML language which was creating a footer, an article ,navigation(which doesn't work for now ). 
