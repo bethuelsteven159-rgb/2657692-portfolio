@@ -3,29 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bethuel Kubyana 2657692's Portfolio</title>
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+
+        #main-header {
+              background-color: #4a90e2;
+              text-align: center;
+             padding: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+    h2 {
+        color: #4a90e2;
+    }
+
+    nav ul {
+        display: flex;
+        list-style: none;
+    }     
+
+    .card {
+        padding: 15px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        margin: 10px 0;
+    }
+
+    a {
+        color: #000000;
+    }
+
+    footer {
+        background-color: #90EE90;
+    }
+    </style>
 </head>
 <body>
-    <h1> Welcome to Bethuel Kubyana 2657692's Portfolio </h1> 
-    <nav> 
-      <ul>
-       <li><a href="#">Home<a/></li> 
-       <li><a href="#">Projects<a/></li> 
-       <li><a href="#">Contact<a/></li> 
-      </ul>
+    <header id="main-header">
+        <h1>Bethuel Kubyana</h1>
+        <p>Student ID: 2657692</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </nav>
-    <main class="container">
-       <section class> 
-       <h2>About Me</h2>
-       <p>Third year COMS student.</p>
-       <p>I love chess, I am not that kind. I enjoy my own personal space </p>
-       </section>
-       <article>
-       <h3> Latest Project</h3 > 
-       <p>A personal website that keeps tract of all events that happened and notify me about the one's that will happen.</p>
-       </article>
-       <footer>  © 2026 2657692 | Built with Semantic HTML</footer>
+
+    <main>
+        <section class="card" id="about">
+            <h2>About Me</h2>
+            <p>Write a short paragraph about yourself here. Include your interests, your field of study, and what you hope to achieve in this course.</p>
+        </section>
+
+        <article class="card" id="projects">
+            <h2>Latest Project</h2>
+            <p>Describe a project you have worked on or are currently working on. This could be a personal project, a group assignment, or something you built for fun.</p>
+        </article>
     </main>
-    <!-- Your semantic HTML structure here -->
+
+    <footer>
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </footer>
 </body>
 </html>
